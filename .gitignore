@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Rust
+target/
+Cargo.lock
+
+# Datos y pesos del modelo
+data/*.txt
+tokenizer/*.json
+weights/*.safetensors
+checkpoints/*.pt
+
+# Entornos virtuales
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+training/*.log
